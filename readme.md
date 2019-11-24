@@ -1,4 +1,4 @@
-Github link : https://github.com/BEIT10/Machine-Translator
+
 
 Ubuntu users follow the given steps. We have already created a conda environment with the required packages listed. On importing the environment.yml file the listed packages get installed on the users system. 
 
