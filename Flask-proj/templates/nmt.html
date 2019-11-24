@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<h3 align="center">Neural Machine Translator</h3>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <div class="form-group">
+        <label for="english-text">English Text</label>
+        <textarea class="form-control" id="english-text" rows="3"></textarea>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="form-group">
+        <label for="hindi-text">Hindi Text</label>
+        <textarea class="form-control" id="hindi-text" rows="3"></textarea>
+      </div>
+    </div>
+  </div>
+  <button id="translate" type="button" class="btn btn-outline-info btn-block">Translate</button>
+</div>
+
+{% endblock content%}
